@@ -7,14 +7,14 @@
 namespace multisim{
     class Battle{
         public:
-            Battle(int battle_id);
+            Battle(unsigned int battle_id);
             ~Battle();
             void step();
 
         protected:
 
         private:
-            int m_battle_id;
+            unsigned int m_battle_id;
             std::map<int, BattleActor> m_actors;
     };
 }

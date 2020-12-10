@@ -1,7 +1,7 @@
 #include "BattleActor.hpp"
 
 namespace multisim{
-    BattleActor::BattleActor(int actor_id, int graphics_id){
+    BattleActor::BattleActor(unsigned int actor_id, unsigned int graphics_id){
         this->m_actor_id = actor_id;
         this->m_graphics_id = graphics_id;
         this->m_tile_x = -1;

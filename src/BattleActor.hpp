@@ -7,7 +7,7 @@
 namespace multisim{
     class BattleActor{
         public:
-            BattleActor(int actor_id, int graphics_id);
+            BattleActor(unsigned int actor_id, unsigned int graphics_id);
             ~BattleActor();
             void set_battle_action(std::unique_ptr<BattleAction> action);
             void set_tile_position(int tile_x, int tile_y);
