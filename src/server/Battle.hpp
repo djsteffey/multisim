@@ -9,11 +9,13 @@ namespace multisim{
         public:
             Battle(unsigned int battle_id);
             ~Battle();
-            void step();
+            void update();
 
         protected:
 
         private:
+            void step();
+
             unsigned int m_battle_id;
             std::map<int, BattleActor> m_actors;
     };

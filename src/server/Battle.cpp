@@ -9,6 +9,10 @@ namespace multisim{
 
     }
 
+    void Battle::update(){
+
+    }
+    
     void Battle::step(){
 
     }
